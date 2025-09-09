@@ -5,4 +5,4 @@ from rest_framework import status
 
 class Index(APIView):
     def get(self,request):
-        return "Hello From API"
+        return Response({"hello there"})

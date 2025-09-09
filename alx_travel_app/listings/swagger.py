@@ -4,9 +4,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="My API",
+        title="Travel App",
         default_version='v1',
-        description="Test description",
+        description="Travel app api documentation",
         terms_of_service="https://www.example.com/policies/terms/",
         contact=openapi.Contact(email="contact@myapi.local"),
         license=openapi.License(name="BSD License"),
